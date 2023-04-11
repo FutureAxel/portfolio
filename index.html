@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-1" href="#"><button class="home"><i class="fa-solid fa-house"></i></button></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active ms-4 me-4" aria-current="page" id="links" href="#projects">Projects</a>
+                            <a class="nav-link active ms-4 me-4" aria-current="page" id="links" href="#contact">Contact</a>
+                            <a class="nav-link active ms-4" aria-current="page" id="links" href="index2.html">Spanish</a>
+                        </div>
+                        <div class="card text-bg-dark mt-2" style="max-width: 25rem; margin-left: 68%;">
+                            <div class="card-body">
+                                <span class="temp" id="wth">-°C</span>
+                                <span class="summary" id="wth">---</span>
+                                <span class="location" id="wth">---</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid pt-1">
+            <div class="row">
+                <div class="col-md-8">
+                    <p id="about" class="fs-1 ms-5" style="color: white;">Hi, nice to meet you! My name is Axel</p><br>
+                    <p id="about2" class="ms-5" style="color: white;">I am a jr. full-stack developer, using JAVA for 
+                    the back-end. Always open to learn new technologies. Nowadays I am learning to use Spring Boot. 
+                    I am reliable, efficient and a fast learner. I like team working and I have excellent communication skills.  
+                    I invite you to see some of my projects and if you are interested, 
+                    of course you can always contact me. You can see my cv by clicking
+                    <a target="_blank" href="doc/Axel Maidana CV.pdf" style="color: white; text-decoration: none;"><span class="here">HERE.</span></a></p>
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/foto 2.png" alt="pic of me">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid text-center" id="prueba" style="background-color: black;">
+        <br><h1 class="text-center p-5 pb-1" style="color: white;" id="projects">Projects</h1>
+        <div class="row justify-content-center pb-1 pt-1">
+            <div class="card m-4 pb-4" id="card" style="width: 18rem; background-color: black;">
+                <img src="img/JAVA.png" class="card-img-top pt-4 pb-2" alt="JAVApic">
+                    <div class="card-body">
+                        <h4 class="card-title text-light" style="text-decoration: underline;">First CRUD</h4>
+                            <p class="card-text text-light">Website where you can do a complete CRUD, using JAVA for the back-end.</p><br>
+                                <a href="https://github.com/FutureAxel/firstCRUD" target="_blank" id="button">GITHUB</a>
+                    </div>
+            </div>
+
+            <div class="card m-4 pb-4" id="card" style="width: 18rem; background-color: black;">
+                <img src="img/JAVA.png" class="card-img-top pt-4 pb-2" alt="JAVApic">
+                    <div class="card-body">
+                        <h4 class="card-title text-light" style="text-decoration: underline;">Holydays Calculator</h4>
+                            <p class="card-text text-light">Desktop app that calculates how many vacation days an employee has.</p><br>
+                                <a href="https://github.com/FutureAxel/HolydaysCalculator" target="_blank" id="button">GITHUB</a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center pb-1 pt-1">
+            <div class="card m-4 pb-4" id="card" style="width: 18rem; background-color: black;"> 
+                <img src="img/ANGULAR.png" class="card-img-top pt-4 pb-2" alt="Angularpic">
+                    <div class="card-body">
+                        <h4 class="card-title text-light" style="text-decoration: underline;">Task List</h4>
+                            <p class="card-text text-light">Web app where you can add or remove things to do and check the ones you have done.</p><br>
+                                <a href="https://github.com/FutureAxel/TaskList" target="_blank" id="button">GITHUB</a>
+                    </div>
+            </div>
+
+            <div class="card m-4 pb-4" id="card" style="width: 18rem; background-color: black;"> 
+                <img src="img/HTML.jpeg" class="card-img-top pt-4 pb-2" alt="HTMLpic">
+                    <div class="card-body">
+                        <h4 class="card-title text-light" style="text-decoration: underline;">Website</h4>
+                            <p class="card-text text-light">This is a website for a real hair salon, using HTML, CSS and BOOTSTRAP</p><br>
+                                <a href="https://futureaxel.github.io/buenasvibras/" target="_blank" id="button" style="padding-left: 8%; padding-right: 8%; margin-right: 2%;">WEB</a>
+                                <a href="https://github.com/futureaxel/buenasvibras" target="_blank" id="button">GITHUB</a>
+                    </div>
+            </div>
+
+            <div class="card m-4 pb-4" id="card" style="width: 18rem; background-color: black;"> 
+                <img src="img/JS.jpeg" class="card-img-top pt-4 pb-2" alt="JSpic">
+                    <div class="card-body">
+                        <h4 class="card-title text-light" style="text-decoration: underline;">Website</h4>
+                            <p class="card-text text-light">Simulates a buying ticket website where I made some validations using JavaScript</p><br>
+                                <a href="https://futureaxel.github.io/tickets/" target="_blank" id="button" style="padding-left: 8%; padding-right: 8%; margin-right: 2%;">WEB</a>
+                                <a href="https://github.com/FutureAxel/tickets" target="_blank" id="button">GITHUB</a>
+                    </div>
+            </div>    
+        </div>
+    </div>
+
+    <div class="container-fluid" id="contactame">
+        <br><h1 class="text-center ms-1 p-5 pb-1" style="color: white;" id="contact">Contact Me</h1>
+            <form action="https://formsubmit.co/77ee6131b81a7d734f4212be9d2a9174" method="POST">
+                <div class="row mb-2 pt-1">
+                    <div class="col-md-8">
+                        <input type="text" name="name" class="form-control" placeholder="Name" aria-label="First name" id="form">
+                    </div>
+                </div>
+           
+                <div class="row mb-2">
+                    <div class="col-md-8">
+                        <input type="email" name="email" class="form-control" placeholder="E-mail" aria-label="Last name" id="form">
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-8">
+                        <input type="text" name="message" class="form-control mb-2" placeholder="Place your message here..." aria-label="Last name" id="message">
+                        <button type="submit" class="btn btn-outline-light mt-2 mb-4 ps-5 pe-5" id="send">SEND</button>
+                        <input type="hidden" name="_next" value="https://futureaxel.github.io/portfolio/">
+                    </div>
+            
+                    <div class="col-md-4" style="color: white;">
+                        <a href="https://www.linkedin.com/in/axel-emiliano-maidana/" target="_blank" style="color: white;"><i class="fa-brands fa-linkedin mb-5" id="icon1"></i></a>
+                        <a href="https://github.com/FutureAxel?tab=repositories" target="_blank" style="color: white;"><i class="fa-brands fa-github" id="icon2"></i></a>
+                    </div>
+                </div>
+            </form>
+    </div>
+    
+    <p class="footer m-0 p-2"> Copyright © 2023 Axel Emiliano Maidana • Web Designer & JAVA Developer</p>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- <script src="JS/weather_api.js"></script> -->
+</body>
+</html>
